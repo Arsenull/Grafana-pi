@@ -17,7 +17,7 @@ echo -e "${Colour}Installing Grafana \n${Color_Off}"
 echo -e "${Colour}Installing Grafana plugins \n${Color_Off}"
 ##sudo grafana-cli plugins install ntop-ntopng-datasource
 sudo grafana-cli plugins install grafana-clock-panel
-service grafana-server restart
+sudo service grafana-server restart
 
 
 
