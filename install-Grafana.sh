@@ -10,8 +10,8 @@ sudo apt-get upgrade
 
 #install Grafana
 echo -e "${Colour}Installing Grafana \n${Color_Off}"
-##wget https://dl.grafana.com/oss/release/grafana_6.1.6_armhf.deb
-##sudo dpkg -i grafana_6.1.6_armhf.deb
+wget https://dl.grafana.com/oss/release/grafana_6.1.6_armhf.deb
+sudo dpkg -i grafana_6.1.6_armhf.deb
 
 #install Grafana plugins
 echo -e "${Colour}Installing Grafana plugins \n${Color_Off}"
